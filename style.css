@@ -20,7 +20,11 @@ svg {
   background-color: #000;
 }
 
-header h1 {
+header .burgerbutton {
+  margin-right: 15px;
+}
+
+.headerAndNavBar h1 {
   font-family: Antonio;
   font-style: normal;
   font-weight: 400;
@@ -30,29 +34,102 @@ header h1 {
   margin: 16px 0 16px 24px;
 }
 
-header {
+.headerAndNavBar {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
-.mainmenu {
+.burgerMenu {
   margin-top: 15px;
   margin-right: 24px;
 }
 
-.burgerMenu {
+main .maintext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main button {
+  color: #7f7f8f;
+  font-family: latin-700;
+  padding: 25px 0px;
+  font-size: 13px;
+}
+
+main .mainbuttons {
+  display: flex;
+  justify-content: center;
+}
+
+main button.middle {
+  margin: 0px 70px;
+}
+
+main img {
+  width: 115px;
+  margin: 70px 0px;
+}
+
+main .mainimage {
+  text-align: center;
+}
+
+main article h1 {
+  color: white;
+  font-size: 40px;
+  font-family: antonio;
+  text-align: center;
+}
+
+main article p.description {
+  color: white;
+  font-size: 16px;
+  font-family: latin-regular;
+  margin: 20px;
+  text-align: center;
+}
+
+main .desc-source {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  margin-right: 15px;
 }
 
-li {
-  justify-content: space-evenly;
-  margin-right: 24px;
+section h3 {
+  color: #7f7f8f;
+  font-family: latin-700;
+  font-size: 13px;
+}
+section h2 {
+  color: white;
+  font-family: antonio;
+  font-size: 15px;
 }
 
-#planet-info {
-  /* Style the fetched data here */
+section div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid white;
+  padding: 10px 17px;
+  margin: 5px 15px;
 }
