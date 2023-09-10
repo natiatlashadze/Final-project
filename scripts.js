@@ -2,6 +2,9 @@ let allPlanetInfo;
 let currentPlanetInfo;
 let menuOpen = false;
 
+const burgerBtn = document.querySelector(".burger-btn");
+const navEl = document.querySelector("#main-nav");
+
 window.addEventListener("popstate", function (event) {
   const arr = window.location.href.split("/");
   const lastWord = arr[arr.length - 1];
