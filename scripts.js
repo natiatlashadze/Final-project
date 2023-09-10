@@ -120,6 +120,7 @@ function fillInformation(planetInfo, type) {
     planetImage.src = planetInfo.images.internal;
   } else if (type === "geology") {
     textContent.innerHTML = planetInfo.geology.content;
+    planetImage.src = planetInfo.images.geology;
   }
 
   planetNameElement.innerHTML = planetInfo.name;
