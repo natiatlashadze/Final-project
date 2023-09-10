@@ -27,11 +27,6 @@ body {
   height: 100vh;
 }
 
-button {
-  background: 0;
-  border: 0;
-}
-
 .header h1 {
   font-family: "Antonio";
   font-style: normal;
